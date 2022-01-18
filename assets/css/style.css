@@ -1,0 +1,52 @@
+.grid-5-cols{
+    margin: 1rem auto;
+    width: min(90%, 75rem);
+    display: grid;
+    grid-template-columns:  20% 20% 20% 20% 20%;
+}
+
+.grid-8-rows{
+    /* margin: 5rem auto; */
+    width: min(90%, 75rem);
+    display: grid;
+    grid-template-rows: 25px 25px 25px 50px 50px 25px 50px 50px;
+    /* grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%; */
+}
+
+.grid-6-rows{
+    /* margin: 5rem auto; */
+    width: min(90%, 75rem);
+    display: grid;
+    grid-template-rows: 25px 25px 25px 50px 25px 50px;
+    /* grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%; */
+}
+
+.grid-4-rows{
+    /* margin: 5rem auto; */
+    width: min(90%, 75rem);
+    display: grid;
+    grid-template-rows: 25px 25px 25px 50px;
+    /* grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%; */
+}
+
+.grid-2-cols{
+    /* margin: 5rem auto; */
+    width: min(90%, 75rem);
+    display: grid;
+    /* grid-template-rows: 100px 100px 100px 100px 100px 100px 100px; */
+    grid-template-columns: 50% 50%;
+}
+
+.team{
+    width:20%;
+    /* height:20%; */
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+    }
+
+.center {
+    text-align: center;
+}
