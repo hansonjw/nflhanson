@@ -21,6 +21,14 @@
     /* grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%; */
 }
 
+.grid-5-rows{
+    /* margin: 5rem auto; */
+    width: min(90%, 75rem);
+    display: grid;
+    grid-template-rows: 50px;
+    /* grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%; */
+}
+
 .grid-4-rows{
     /* margin: 5rem auto; */
     width: min(90%, 75rem);
@@ -46,6 +54,11 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
         monospace;
     }
+
+.center-heading{
+    margin-top: 25px;
+    text-align: center;
+}
 
 .center {
     text-align: center;
