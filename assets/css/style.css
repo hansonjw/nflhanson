@@ -3,35 +3,42 @@ body {
 }
 
 
+.grid-pickem{
+    /* margin: auto auto; */
+    /* width: min(90%, 75rem); */
+    display: grid;
+    grid-template-columns: 5% 10% 10% 10% 10% 10% 10% 10% 10% 10% 5%;
+}
+
 .grid-5-cols{
-    margin: 1rem auto;
-    width: min(90%, 75rem);
+    /* margin: auto auto; */
+    /* width: min(90%, 75rem); */
     display: grid;
-    grid-template-columns:  20% 20% 20% 20% 20%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
 }
 
-.grid-8-rows{
+.grid-7-rows{
     width: min(90%, 75rem);
     display: grid;
-    grid-template-rows: 25px 25px 25px 50px 50px 25px 50px 50px;
+    grid-template-rows: 25px 25px 50px 50px 25px 50px 50px;
 }
 
-.grid-6-rows{
+.grid-conference-rows{
     width: min(90%, 75rem);
     display: grid;
-    grid-template-rows: 25px 25px 25px 50px 25px 50px;
+    grid-template-rows: 25px 25px 50px 25px 50px;
 }
 
 .grid-5-rows{
     width: min(90%, 75rem);
     display: grid;
-    grid-template-rows: 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px;
 }
 
-.grid-4-rows{
+.grid-superbowl-rows{
     width: min(90%, 75rem);
     display: grid;
-    grid-template-rows: 25px 25px 25px 50px;
+    grid-template-rows: 25px 25px 50px;
 }
 
 .grid-2-cols{
@@ -52,6 +59,15 @@ body {
 
 .center {
     text-align: center;
+    padding: auto;
+    margin: auto;
+}
+
+.player {
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom-color: lightgrey;
+    border-bottom-width: 1px;
 }
 
 .top-of-page {
