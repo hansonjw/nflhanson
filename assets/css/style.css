@@ -55,15 +55,17 @@ body {
 .center-heading {
     margin-top: 25px;
     text-align: center;
+    font-size: 1.5vw;
 }
 
 .center-bracket-player{
     margin-top: 25px;
     text-align: left;
-    margin-left: 50px;
+    margin: 5% auto 5% auto;
     border-bottom-style: solid;
     border-bottom-color: lightgrey;
     border-bottom-width: 1px;
+    font-size: 1vw;
 }
 
 .center {
@@ -72,11 +74,33 @@ body {
     margin: auto;
 }
 
+.title {
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    font-size: 2vw;
+}
+
+.conference {
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    font-size: 1vw;
+}
+
+.bracket-round {
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    font-size: 1vw;
+}
+
 .player {
     text-align: center;
     border-bottom-style: solid;
     border-bottom-color: lightgrey;
     border-bottom-width: 1px;
+    font-size: 1vw;
 }
 
 .top-of-page {
@@ -90,5 +114,7 @@ body {
     padding-bottom: 10px;
     text-align: left;
     color:  blue;
+    font-size: 1vw;
+    
     /* margin: */
 }
