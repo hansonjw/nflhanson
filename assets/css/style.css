@@ -139,3 +139,12 @@ body {
     /* margin: */
 }
 
+.win{
+    border-radius: 1vw;
+    background-image: radial-gradient(white, white, #A9DFBF);
+}   
+
+.lose{
+    border-radius: 1vw;
+    background-image: radial-gradient(white, white, #F1948A);
+}
