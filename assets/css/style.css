@@ -1,5 +1,6 @@
 body {
     font-family: Optima, sans-serif;
+    padding-top: 3rem;
 }
 
 
@@ -59,7 +60,7 @@ body {
 }
 
 .team-pickem{
-    width: 40%;
+    width: 100%;
 }
 
 .team-bracket{
@@ -141,10 +142,10 @@ body {
 
 .win{
     border-radius: 1vw;
-    background-image: radial-gradient(white, white, #A9DFBF);
+    background-image: radial-gradient(#A9DFBF, #A9DFBF, #A9DFBF, white, white);
 }   
 
 .lose{
     border-radius: 1vw;
-    background-image: radial-gradient(white, white, #F1948A);
+    background-image: radial-gradient(#F1948A, #F1948A, #F1948A, white, white);
 }
