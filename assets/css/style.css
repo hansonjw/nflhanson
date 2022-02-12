@@ -119,6 +119,11 @@ body {
     font-size: 1vw;
 }
 
+.conference {
+    text-align: center;
+    font-size: 1vw;
+}
+
 .top-of-page {
     display: grid;
     grid-template-columns: 20% 60% 20%;
